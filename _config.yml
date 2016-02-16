@@ -1,14 +1,29 @@
-# Site settings
-title: My Random Thoughts
-email: fujinumay at gmail dot com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Yoshinari Fujinuma's Page
+tagline:          'A Jekyll theme'
+description:      'Welcome and have some coffee here!'
+url:              
+baseurl:          /
+
+author:
+  name:           'Yoshinari Fujinuma'
+  url:            https://twitter.com/akkikiki
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
 twitter_username: akkikiki
 github_username:  akkikiki
 
-# Build settings
-markdown: kramdown
+github:
+  repo:           https://github.com/akkikiki

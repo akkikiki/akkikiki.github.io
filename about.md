@@ -1,11 +1,19 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I am currently a search engineer at Amazon Japan and its subsidary A9.com.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+My main interest is on Natural Language Processing, especially on cross-lingual processing such as Japanese or other Asian languages. Japanese (or Chinese, Korean, etc.) is an unsegmented language and this fact makes it difficult to tokenize (word segmentation and POS-tagging) when compared to English. 
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+You can find me on [LinkedIn](https://jp.linkedin.com/in/yoshinari-fujinuma-4b612959), [Twitter](https://twitter.com/akkikiki), and [Github](https://github.com/akkikiki).
+
+## Publication
+* Yoshinari Fujinuma, Hikaru Yokono, Pascual Martinez-Gomez, Akiko Aizawa: “Distant-supervised Language Model for Detecting Emotional Upsurge on Twitter”, The 29th Pacific Asia Conference on Language, Information and Computation, Nov. 2015 (Peer-reviewed)
+
+## Other Talks
+* Query Understanding behind Product Search, [Michinoku Communication Science Seminar](http://www.cl.ecei.tohoku.ac.jp/index.php?MiCS) at Tohoku University, Feburary 2016
+
+## Projects
+* [Kuromoji FST](https://github.com/atilika/fst): A finite-state transducer for efficient key-value lookup.
