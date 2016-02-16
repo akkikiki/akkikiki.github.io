@@ -14,10 +14,9 @@ The explanation on the slide was not verbose enough for me to fully understand i
 
 Let's start from referring to the average structured perceptron from Haul Daume's PhD thesis:
 
-![My helpful screenshot]({{ site.baseurl }}/assets/averagedStructuredPerceptron.png)
+![My helpful screenshot]({{ site.baseurl }}assets/averagedStructuredPerceptron.png)
 
 
-What is this 
 $$ w_0 - w_a / c $$
 
 [tutorial]:      http://acl2015.org/tutorials-t6.html
