@@ -10,7 +10,7 @@ My main interest is on Natural Language Processing, especially on cross-lingual 
 You can find me on [LinkedIn](https://jp.linkedin.com/in/yoshinari-fujinuma-4b612959), [Twitter](https://twitter.com/akkikiki), and [Github](https://github.com/akkikiki).
 
 ## Publication
-* Yoshinari Fujinuma, Hikaru Yokono, Pascual Martinez-Gomez, Akiko Aizawa: “Distant-supervised Language Model for Detecting Emotional Upsurge on Twitter”, The 29th Pacific Asia Conference on Language, Information and Computation, Nov. 2015 (Peer-reviewed)
+* Yoshinari Fujinuma, Hikaru Yokono, Pascual Martinez-Gomez, Akiko Aizawa: “Distant-supervised Language Model for Detecting Emotional Upsurge on Twitter”, The 29th Pacific Asia Conference on Language, Information and Computation, Nov. 2015 [pdf](http://aclweb.org/anthology/Y/Y15/Y15-1056.pdf)
 
 ## Other Talks
 * Query Understanding behind Product Search, [Michinoku Communication Science Seminar](http://www.cl.ecei.tohoku.ac.jp/index.php?MiCS) at Tohoku University, Feburary 2016
