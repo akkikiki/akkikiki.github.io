@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-I am currently a search engineer at Amazon Japan and its subsidary A9.com.
+I am currently a search engineer at Amazon Japan and its subsidiary A9.com.
 
 My main interest is on Natural Language Processing, especially on cross-lingual processing such as Japanese or other Asian languages. Japanese (or Chinese, Korean, etc.) is an unsegmented language and this fact makes it difficult to tokenize (word segmentation and POS-tagging) when compared to English. 
 
