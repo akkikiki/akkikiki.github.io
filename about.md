@@ -18,3 +18,6 @@ You can find me on [LinkedIn](https://jp.linkedin.com/in/yoshinari-fujinuma-4b61
 
 ## Projects
 * [Kuromoji FST](https://github.com/atilika/fst): A finite-state transducer for efficient key-value lookup.
+
+## My Personal Notes
+* [PCFG related notes]({{ site.url }}/assets/yoshinari_notes_pcfg.pdf)
