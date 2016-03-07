@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-I am currently a search engineer at Amazon Japan and its subsidiary A9.com.
+I am currently a search engineer at Amazon Japan and its subsidiary A9.com. My Japanese name is "藤沼祥成". 
 
 My main interest is on Natural Language Processing. On the method side, I am intersted in unsupervised or semi-supervised learning, because it requires less human burden. On the application side, I am interested in cross-lingual processing such as Japanese or other Asian languages. Japanese (or Chinese, Korean, etc.) is an unsegmented language and this fact makes it difficult to tokenize (word segmentation and POS-tagging) when compared to English. 
 
