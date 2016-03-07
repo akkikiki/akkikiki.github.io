@@ -5,7 +5,7 @@ title: About
 
 I am currently a search engineer at Amazon Japan and its subsidiary A9.com.
 
-My main interest is on Natural Language Processing, especially on cross-lingual processing such as Japanese or other Asian languages. Japanese (or Chinese, Korean, etc.) is an unsegmented language and this fact makes it difficult to tokenize (word segmentation and POS-tagging) when compared to English. 
+My main interest is on Natural Language Processing. On the method side, I am intersted in unsupervised or semi-supervised learning, because it requires less human burden. On the application side, I am interested in cross-lingual processing such as Japanese or other Asian languages. Japanese (or Chinese, Korean, etc.) is an unsegmented language and this fact makes it difficult to tokenize (word segmentation and POS-tagging) when compared to English. 
 
 You can find me on [LinkedIn](https://jp.linkedin.com/in/yoshinari-fujinuma-4b612959), [Twitter](https://twitter.com/akkikiki), and [Github](https://github.com/akkikiki).
 
