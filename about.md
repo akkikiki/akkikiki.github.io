@@ -18,7 +18,7 @@ You can find me on [LinkedIn](https://jp.linkedin.com/in/yoshinari-fujinuma-4b61
 * [Query Understanding behind Product Search](http://www.cl.ecei.tohoku.ac.jp/index.php?MiCS) at Tohoku University, Feburary 2016
 * [Introduction to Language Models (In Japanaese, Japanese Title: 言語モデル入門)](http://www.slideshare.net/yoshinarifujinuma/04-12-labmeetingforpublic), April 2014
 
-## Projects
+## OSS Projects
 * [Kuromoji FST](https://github.com/atilika/fst): A finite-state transducer for efficient key-value lookup.
 
 ## My Personal Notes
