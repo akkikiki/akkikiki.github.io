@@ -14,6 +14,7 @@ You can find me on [LinkedIn](https://jp.linkedin.com/in/yoshinari-fujinuma-4b61
 * Yoshinari Fujinuma, Hikaru Yokono, Pascual Martinez-Gomez, Akiko Aizawa: “Distant-supervised Language Model for Detecting Emotional Upsurge on Twitter”, The 29th Pacific Asia Conference on Language, Information and Computation, Nov. 2015 [pdf](http://aclweb.org/anthology/Y/Y15/Y15-1056.pdf)
 
 ## Other Talks
+* [Probabilistic Graphical Models Chapter 4.1 - 4.4 (slides are in Japanese)](http://www.slideshare.net/yoshinarifujinuma/pgm-chapter4-firstpartforpublic2-64271462), July 2016
 * IT業界における英語とプログラミングの関係性(English and Programming in Academia and Industry for Japanese Junior Students) at Tokyo Metropolitan University, April 2016 [leaflet](http://www.sd.tmu.ac.jp/extra/download.html?d=assets/files/download/news/ver0_ICTspecial20160426.pdf) [slides](http://www.slideshare.net/yoshinarifujinuma/it-63436578)
 * [Query Understanding behind Product Search](http://www-al.nii.ac.jp/blog/2016-4-1-seminar-talk-by-yoshinari-fujinuma/)  at NII, April 2016
 * [Query Understanding behind Product Search](http://www.cl.ecei.tohoku.ac.jp/index.php?MiCS) at Tohoku University, Feburary 2016
