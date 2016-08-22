@@ -26,6 +26,7 @@ You can find me on [LinkedIn](https://jp.linkedin.com/in/yoshinari-fujinuma-4b61
 ## My Personal Notes
 * [PCFG-related notes]({{ site.url }}/assets/yoshinari_notes_pcfg.pdf)
 * [EM-related notes]({{ site.url }}/assets/yoshinari_notes_em.pdf)
+* [Dual decomposition-related notes]({{ site.url }}/assets/yoshinari_notes_dd.pdf)
 
 ## Email address
 fujinumay at gmail dot com
