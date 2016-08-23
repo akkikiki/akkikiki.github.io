@@ -6,7 +6,7 @@ title: About
 I am an incoming computer science PhD student at University of Colorado, Boulder.
 I was previously a search engineer at Amazon Japan and its subsidiary A9.com. My Japanese name is "藤沼祥成". 
 
-My main interest is on Natural Language Processing and Machine Learning. On the method side, I am intersted in unsupervised/semi-supervised/distant-supervised learning, or making use of unlabeled data because it requires less human burden. On the application side, I am interested in cross-lingual processing on Japanese or other Asian languages. Japanese (or Chinese, Korean, etc.) is an unsegmented language and this fact makes it difficult to tokenize (word segmentation and POS-tagging) when compared to English. 
+My main interest is on Natural Language Processing and Machine Learning. On the method side, I am intersted in unsupervised/semi-supervised/distant-supervised learning, or making use of unlabeled data because it requires less manual labor. On the application side, I am interested in cross-lingual processing on Japanese or other Asian languages. Japanese (or Chinese, Korean, etc.) is an unsegmented language and this fact makes it difficult to tokenize (word segmentation and POS-tagging) when compared to English. 
 
 You can find me on [LinkedIn](https://jp.linkedin.com/in/yoshinari-fujinuma-4b612959), [Twitter](https://twitter.com/akkikiki), and [Github](https://github.com/akkikiki).
 
