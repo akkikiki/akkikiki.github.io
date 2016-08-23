@@ -22,7 +22,7 @@ You can find me on [LinkedIn](https://jp.linkedin.com/in/yoshinari-fujinuma-4b61
 * 言語モデル入門(Introduction to Language Models, April 2014 [Slides](http://www.slideshare.net/yoshinarifujinuma/04-12-labmeetingforpublic)
 
 ## OSS Projects
-* [Kuromoji FST](https://github.com/atilika/fst): A finite-state transducer for efficient key-value lookup.
+* [Kuromoji FST](https://github.com/atilika/fst): A finite-state transducer for efficient key-value (text -> integers) lookup.
 
 ## My Personal Notes
 * [PCFG-related notes]({{ site.url }}/assets/yoshinari_notes_pcfg.pdf)
