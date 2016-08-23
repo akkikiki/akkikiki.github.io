@@ -12,6 +12,7 @@ You can find me on [LinkedIn](https://jp.linkedin.com/in/yoshinari-fujinuma-4b61
 
 ## Publication
 * Yoshinari Fujinuma, Hikaru Yokono, Pascual Martinez-Gomez, Akiko Aizawa: “Distant-supervised Language Model for Detecting Emotional Upsurge on Twitter”, The 29th Pacific Asia Conference on Language, Information and Computation, Nov. 2015 [pdf](http://aclweb.org/anthology/Y/Y15/Y15-1056.pdf)
+* Yoshinari Fujinuma: "Detecting Japanese-English transliteration pairs from search query and clickthrough logs" Amazon Machine Learning Conference 2015 (Internal) 
 
 ## Other Talks
 * [Probabilistic Graphical Models Chapter 4.1 - 4.4 (slides are in Japanese)](http://www.slideshare.net/yoshinarifujinuma/pgm-chapter4-firstpartforpublic2-64271462), July 2016
