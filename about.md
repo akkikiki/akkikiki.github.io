@@ -32,6 +32,7 @@ My CV is [here]({{ site.url }}/assets/yoshinari_fujinuma_cv.pdf).
 * [Dual decomposition-related notes]({{ site.url }}/assets/yoshinari_notes_dd.pdf)
 * [SAGE-related notes]({{ site.url }}/assets/yoshinari_notes_sage.pdf)
 * [CCA-related notes]({{ site.url }}/assets/yoshinari_notes_cca.pdf)
+* [Vector/Matrix derivative-related notes]({{ site.url }}/assets/yoshinari_notes_vec_derivative.pdf)
 
 ## Email address
 fujinumay at gmail dot com
