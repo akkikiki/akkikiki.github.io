@@ -20370,7 +20370,7 @@ width=600
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="2.-Intuitive-Explanation-of-Back-Propagation-using-Computation-Graph">2. Intuitive Explanation of Back Propagation using Computation Graph<a class="anchor-link" href="#2.-Intuitive-Explanation-of-Back-Propagation-using-Computation-Graph">&#182;</a></h1><h3 id="Why-is-the-chain-rule-in-derivatives-important-for-training-neural-networks?">Why is the chain rule in derivatives important for training neural networks?<a class="anchor-link" href="#Why-is-the-chain-rule-in-derivatives-important-for-training-neural-networks?">&#182;</a></h3><p>The chain rule for derivatives is applied when computing derivatives of a function composed by two or more functions (according to Wikipedia <a href="https://en.wikipedia.org/wiki/Chain_rule">https://en.wikipedia.org/wiki/Chain_rule</a>)</p>
 <p>The chian rule is important when training a neural network because one nueron is dependent on another.
-This is the same case for RNNs. Let's be more precious and use a variable to define RNNs. Check out the following figure (from [1]) to get an intuitive idea of it.</p>
+This is the same case for RNNs. Let's be more precise and use a variable to define RNNs. Check out the following figure (from [1]) to get an intuitive idea of it.</p>
 
 </div>
 </div>
@@ -24597,7 +24597,7 @@ width=300
 and</p>
 \begin{align}
 \frac{\partial f(c, d)}{\partial b} 
-&= \frac{\partial f}{\partial b} \frac{\partial d}{\partial b} +  \frac{\partial f}{\partial c} \frac{\partial c}{\partial b} \\
+&= \frac{\partial f}{\partial d} \frac{\partial d}{\partial b} +  \frac{\partial f}{\partial c} \frac{\partial c}{\partial b} \\
 &= c * 1 + d * a
 \end{align}<p>Notice that it is simply following the all possible path in this graph (bottom to up) from input variables $a, b$.</p>
 <h3 id="Back-propagation-on-the-Computation-Graph">Back propagation on the Computation Graph<a class="anchor-link" href="#Back-propagation-on-the-Computation-Graph">&#182;</a></h3><p>Notice that when looking into the equations, there are derivatives that are shared among two equations, namely $\frac{\partial f}{\partial c} $?
@@ -31246,6 +31246,7 @@ width=300
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>CORRECTION: $\frac{\partial f}{\partial b} = c * 1 + d + a$.</p>
 <p>So going from up to bottom and bottom to up is almost the same <strong>except that you traverse only once per edge for the top to bottom traversal</strong>. This is because the computational graph created from chain rule can have multiple children per node.</p>
 <p>In the nueral network case, the bottom nodes (or the leaf nodes) are the weight parameters $W$ and the biases $b$. When the number of these parameters are large, it saves a LOT of time to compute the gradient according to each parameter.</p>
 
