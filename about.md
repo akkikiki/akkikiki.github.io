@@ -35,6 +35,7 @@ My CV is [here]({{ site.url }}/assets/yoshinari_fujinuma_cv.pdf).
 * [Vector/Matrix derivative-related notes]({{ site.url }}/assets/yoshinari_notes_vec_derivative.pdf)
 * [Morphological prior paper -related notes]({{ site.url }}/assets/yoshinari_notes_prob_neural_word_embed.pdf)
 * [LSTM and vanishing gradient-related notes]({{ site.url }}/assets/LSTM+and+GRU.html)
+* [Automatic differentiation-related notes]({{ site.url }}/assets/auto_diff.html)
 
 ## Email address
 fujinumay at gmail dot com
