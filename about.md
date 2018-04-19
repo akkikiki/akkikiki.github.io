@@ -38,5 +38,9 @@ My CV is [here]({{ site.url }}/assets/yoshinari_fujinuma_cv.pdf).
 * [LSTM and vanishing gradient-related notes]({{ site.url }}/assets/LSTM+and+GRU.html)
 * [Automatic differentiation-related notes]({{ site.url }}/assets/auto_diff.html)
 
+## Fun stuff
+* [D3 tweak of a clustered network]({{ site.url }}/assets/cluster_network.html)
+** a tweak of [this tutorial](http://bl.ocks.org/GerHobbelt/3071239)
+
 ## Email address
 fujinumay at gmail dot com
