@@ -9,7 +9,7 @@ svg {
   border: 1px solid #ccc;
 }
 body {
-  font: 10px sans-serif;
+  font: 16px sans-serif;
 }
 circle.node {
   fill: lightsteelblue;
@@ -31,11 +31,16 @@ line.link {
 }
 circle.text {
   pointer-events: none;
-  font: 10px sans-serif;
+  font: 16px sans-serif;
 }
     </style>
   </head>
   <body>
+
+
+  <input id="targetNode" name="targetNode" type="text" /> 
+  <button onclick="growNode()">grow node</button>
+
     <script type="text/javascript">
 var width = 960,     // svg width
     height = 600,     // svg height
@@ -182,7 +187,8 @@ var vis = body.append("svg")
    .attr("width", width)
    .attr("height", height);
 
-d3.json("http://akkikiki.github.io/assets/miserables.json", function(json) {
+//d3.json("miserables.json", function(json) {
+d3.json("kmean_clustered.json", function(json) {
   data = json;
   for (var i=0; i<data.links.length; ++i) {
     o = data.links[i];
@@ -273,6 +279,7 @@ function init() {
         .attr("r", function(d) { return d.size ? d.size + dr : dr+1; })
         .attr("cx", function(d) { return d.x; })
         .attr("cy", function(d) { return d.y; })
+        .attr("id", function(d){ return d.name; })
         .style("fill", function(d) { return fill(d.group); })
         .on("click", function(d) {
           console.log("node click", d, arguments, this, expand[d.group]);
@@ -307,8 +314,10 @@ function init() {
         .attr("x2", function(d) { return d.target.x; })
         .attr("y2", function(d) { return d.target.y; });
 
-    node.attr("cx", function(d) { return d.x; })
-        .attr("cy", function(d) { return d.y; });
+    node.attr("cx", function(d) { return d.x = Math.max(dr, Math.min(width - dr, d.x)); })
+        .attr("cy", function(d) { return d.y = Math.max(dr, Math.min(height - dr, d.y)); });
+    //node.attr("cx", function(d) { return d.x; })
+    //    .attr("cy", function(d) { return d.y; });
 
     text.attr("x", function(d) { return d.x; })
         .attr("y", function(d) { return d.y; });
@@ -316,7 +325,12 @@ function init() {
   });
 
 }
-
+    function growNode(){
+        var userInput = document.getElementById("targetNode");
+        var theNode = d3.select("#" + userInput.value);
+        theNode.attr("r", 20);
+        init();
+    }
     </script>
   </body>
 </html>
