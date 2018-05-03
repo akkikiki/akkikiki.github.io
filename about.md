@@ -39,7 +39,7 @@ My CV is [here]({{ site.url }}/assets/yoshinari_fujinuma_cv.pdf).
 * [Automatic differentiation-related notes]({{ site.url }}/assets/auto_diff.html)
 
 ## Fun stuff
-* [D3 tweak of a clustered network]({{ site.url }}/assets/cluster_network.html)
+* [Clustered Visualizaiton of Word Embeddings using Emojis]({{ site.url }}/assets/cluster_network.html)
 ** a tweak of [this tutorial](http://bl.ocks.org/GerHobbelt/3071239)
 
 ## Email address
