@@ -9,7 +9,7 @@ svg {
   border: 1px solid #ccc;
 }
 body {
-  font: 16px sans-serif;
+  font: 12px sans-serif;
 }
 circle.node {
   fill: lightsteelblue;
@@ -31,15 +31,20 @@ line.link {
 }
 circle.text {
   pointer-events: none;
-  font: 16px sans-serif;
+  font: 12px sans-serif;
 }
     </style>
   </head>
   <body>
 
-
+    <div id="partOne">
+        <h1>Clustered Visualizaiton of Word Embeddings using Emojis</h1>
+    </div>
+   
+<!--
   <input id="targetNode" name="targetNode" type="text" /> 
-  <button onclick="growNode()">grow node</button>
+    <button onclick="growNode()">grow node</button>
+-->
 
     <script type="text/javascript">
 var width = 960,     // svg width
@@ -121,6 +126,11 @@ function network(data, prev, index, expand) {
           l.x = gc[i].x / gc[i].count;
           l.y = gc[i].y / gc[i].count;
         }
+        if (l.name) {
+        }
+        else {
+          l.name = n.name;
+        }
       }
       l.nodes.push(n);
     }
@@ -188,7 +198,9 @@ var vis = body.append("svg")
    .attr("height", height);
 
 //d3.json("miserables.json", function(json) {
-d3.json("kmean_clustered.json", function(json) {
+//d3.json("kmean_clustered.json", function(json) {
+//d3.json("kmean_clustered_en.json", function(json) {
+d3.json("kmean_clustered_en_50.json", function(json) {
   data = json;
   for (var i=0; i<data.links.length; ++i) {
     o = data.links[i];
@@ -243,7 +255,7 @@ function init() {
     })
     .gravity(0.05)   // gravity+charge tweaked to ensure good 'grouped' view (e.g. green group not smack between blue&orange, ...
     .charge(-600)    // ... charge is important to turn single-linked groups to the outside
-    .friction(0.5)   // friction adjusted to get dampened display: less bouncy bouncy ball [Swedish Chef, anyone?]
+    .friction(0.4)   // friction adjusted to get dampened display: less bouncy bouncy ball [Swedish Chef, anyone?]
       .start();
 
   hullg.selectAll("path.hull").remove();
@@ -297,8 +309,16 @@ function init() {
         .style("fill", "black")
         .attr("text-anchor", "middle")
         .attr("x", function(d) { return d.x; })
-        .attr("y",  function(d) { return d.y - 100; })
-        .text(function(d) { return d.name });
+        .attr("y",  function(d) { return d.y; })
+        .attr("font-size", function(d) { return d.size ? "26px" : "12px" })
+        .text(function(d) { return d.size ? d.name : d.name })
+        .on("mouseover", function(d) {
+          d3.select(this).style("fill", "red").attr("font-size","26px");
+        })                  
+        .on("mouseout", function(d) {
+          d3.select(this).style("fill", "black")
+            .attr("font-size", function(d) { return d.size ? "26px" : "12px" });
+        });
 
   node.call(force.drag)
   text.call(force.drag)
@@ -325,12 +345,12 @@ function init() {
   });
 
 }
-    function growNode(){
-        var userInput = document.getElementById("targetNode");
-        var theNode = d3.select("#" + userInput.value);
-        theNode.attr("r", 20);
-        init();
-    }
+    //function growNode(){
+    //    var userInput = document.getElementById("targetNode");
+    //    var theNode = d3.select("#" + userInput.value);
+    //    theNode.attr("r", 20);
+    //    init();
+    //}
     </script>
   </body>
 </html>
