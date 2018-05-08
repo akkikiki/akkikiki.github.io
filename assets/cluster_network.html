@@ -15,6 +15,7 @@ circle.node {
   fill: lightsteelblue;
   stroke: #555;
   stroke-width: 3px;
+  opacity: 0.0;
 }
 circle.leaf {
   stroke: #fff;
@@ -26,7 +27,7 @@ path.hull {
 }
 line.link {
   stroke: #333;
-  stroke-opacity: 0.5;
+  stroke-opacity: 0.0;
   pointer-events: none;
 }
 circle.text {
@@ -49,7 +50,8 @@ circle.text {
     <script type="text/javascript">
 var width = 960,     // svg width
     height = 600,     // svg height
-    dr = 4,      // default point radius
+    //dr = 4,      // default point radius
+    dr = 0.1,      // default point radius
     off = 15,    // cluster hull offset
     expand = {}, // expanded clusters
     data, net, force, hullg, hull, linkg, link, nodeg, node, textg, text;
@@ -197,9 +199,6 @@ var vis = body.append("svg")
    .attr("width", width)
    .attr("height", height);
 
-//d3.json("miserables.json", function(json) {
-//d3.json("kmean_clustered.json", function(json) {
-//d3.json("kmean_clustered_en.json", function(json) {
 d3.json("kmean_clustered_en_50.json", function(json) {
   data = json;
   for (var i=0; i<data.links.length; ++i) {
@@ -310,14 +309,19 @@ function init() {
         .attr("text-anchor", "middle")
         .attr("x", function(d) { return d.x; })
         .attr("y",  function(d) { return d.y; })
-        .attr("font-size", function(d) { return d.size ? "26px" : "12px" })
+        .attr("font-size", function(d) { return d.size ? "28px" : "12px" })
         .text(function(d) { return d.size ? d.name : d.name })
+        .on("click", function(d) {
+          console.log("node click", d, arguments, this, expand[d.group]);
+          expand[d.group] = !expand[d.group];
+         init();
+         })
         .on("mouseover", function(d) {
-          d3.select(this).style("fill", "red").attr("font-size","26px");
+          d3.select(this).style("fill", "red").attr("font-size","28px");
         })                  
         .on("mouseout", function(d) {
           d3.select(this).style("fill", "black")
-            .attr("font-size", function(d) { return d.size ? "26px" : "12px" });
+            .attr("font-size", function(d) { return d.size ? "28px" : "12px" });
         });
 
   node.call(force.drag)
