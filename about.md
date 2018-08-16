@@ -41,6 +41,7 @@ My CV is [here]({{ site.url }}/assets/yoshinari_fujinuma_cv.pdf).
 ## Fun stuff
 * [Clustered Visualizaiton of Word Embeddings using Emojis]({{ site.url }}/assets/cluster_network.html)
 ** a tweak of [this tutorial](http://bl.ocks.org/GerHobbelt/3071239)
+* [Clustered Visualizaiton of EN-ES using Emojis]({{ site.url }}/assets/cluster_network_en_es.html)
 
 ## Email address
 fujinumay at gmail dot com
