@@ -28,6 +28,7 @@ My CV is [here]({{ site.url }}/assets/yoshinari_fujinuma_cv.pdf).
 * [Kuromoji FST](https://github.com/atilika/fst): A finite-state transducer for efficient key-value (text -> integers) lookup.
 
 ## My Personal Notes
+* [Checklists Before You Submit a Paper]({{ site.url }}/assets/checklist.pdf)
 * [PCFG-related notes]({{ site.url }}/assets/yoshinari_notes_pcfg.pdf)
 * [EM-related notes]({{ site.url }}/assets/yoshinari_notes_em.pdf)
 * [Dual decomposition-related notes]({{ site.url }}/assets/yoshinari_notes_dd.pdf)
