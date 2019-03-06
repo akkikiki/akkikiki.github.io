@@ -13,7 +13,7 @@ You can find me on [LinkedIn](https://jp.linkedin.com/in/yoshinari-fujinuma-4b61
 My CV is [here]({{ site.url }}/assets/yoshinari_fujinuma_cv.pdf).
 
 ## Publication
-* Yoshinari Fujinuma, Alvin Grissom II: "Substring Frequency Features for Segmentation of Japanese Katakana Words with Unlabeled Corpora", The 8th International Joint Conference on Natural Language Processing, Nov. 2017 (acceptance rate: 31%) [pdf](http://aclweb.org/anthology/I17-2013)
+* Yoshinari Fujinuma, Alvin Grissom II: "Substring Frequency Features for Segmentation of Japanese Katakana Words with Unlabeled Corpora", The 8th International Joint Conference on Natural Language Processing, Nov. 2017 (acceptance rate: 31%) [pdf](http://aclweb.org/anthology/I17-2013) [poster](https://docs.google.com/presentation/d/1IR6753nvcTF5DnSqgZolasJVaZ3pG7ty6o2CT0-_N6E/edit#slide=id.p3)
 * Yoshinari Fujinuma, Hikaru Yokono, Pascual Martinez-Gomez, Akiko Aizawa: “Distant-supervised Language Model for Detecting Emotional Upsurge on Twitter”, The 29th Pacific Asia Conference on Language, Information and Computation, Nov. 2015 [pdf](http://aclweb.org/anthology/Y/Y15/Y15-1056.pdf)
 * Yoshinari Fujinuma: "Detecting Japanese-English transliteration pairs from search query and clickthrough logs" Amazon Machine Learning Conference 2015 (Internal) 
 
