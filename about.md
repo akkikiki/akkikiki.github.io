@@ -38,6 +38,7 @@ My CV is [here]({{ site.url }}/assets/yoshinari_fujinuma_cv.pdf).
 * [Morphological prior paper -related notes]({{ site.url }}/assets/yoshinari_notes_prob_neural_word_embed.pdf)
 * [LSTM and vanishing gradient-related notes]({{ site.url }}/assets/LSTM+and+GRU.html)
 * [Automatic differentiation-related notes]({{ site.url }}/assets/auto_diff.html)
+* [Intro. to Geometry of Cross-Lingual Embeddings](https://docs.google.com/presentation/d/1r3ES9wcE4r85X3dK-E4cCx3kA4tiCSMgklpeGpwFAd0/edit?usp=sharing)
 
 ## Fun stuff
 * [Clustered Visualizaiton of Word Embeddings using Emojis]({{ site.url }}/assets/cluster_network.html)
