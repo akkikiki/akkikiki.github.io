@@ -17,6 +17,12 @@ My CV is [here]({{ site.url }}/assets/yoshinari_fujinuma_cv.pdf).
 * Yoshinari Fujinuma, Hikaru Yokono, Pascual Martinez-Gomez, Akiko Aizawa: “Distant-supervised Language Model for Detecting Emotional Upsurge on Twitter”, The 29th Pacific Asia Conference on Language, Information and Computation, Nov. 2015 [pdf](http://aclweb.org/anthology/Y/Y15/Y15-1056.pdf)
 * Yoshinari Fujinuma: "Detecting Japanese-English transliteration pairs from search query and clickthrough logs" Amazon Machine Learning Conference 2015 (Internal) 
 
+
+## Preprints
+* Yoshinari Fujinuma, Jordan Boyd-Graber, Michael J. Paul "Diagnosing Language Inconsistency in Cross-Lingual Word Embeddings" 2018 [pdf](https://openreview.net/pdf?id=rkxdpiA5Ym)
+* Mozhi Zhang, Yoshinari Fujinuma, Jordan L. Boyd-Graber: "Exploiting Cross-Lingual Subword Similarities in Low-Resource Document Classification" arXiv 2018 [pdf](https://arxiv.org/abs/1812.09617)
+
+
 ## Other Talks
 * [Probabilistic Graphical Models Chapter 4.1 - 4.4 (slides are in Japanese)](http://www.slideshare.net/yoshinarifujinuma/pgm-chapter4-firstpartforpublic2-64271462), July 2016
 * IT業界における英語とプログラミングの関係性(English and Programming in Academia and Industry for Japanese Junior Students) at Tokyo Metropolitan University, April 2016 [leaflet](http://www.sd.tmu.ac.jp/extra/download.html?d=assets/files/download/news/ver0_ICTspecial20160426.pdf) [slides](http://www.slideshare.net/yoshinarifujinuma/it-63436578)
