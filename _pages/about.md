@@ -21,3 +21,4 @@ You can find me on [LinkedIn](https://jp.linkedin.com/in/yoshinari-fujinuma-4b61
 
 My CV is [here]({{ site.url }}/assets/pdf/yoshinari_fujinuma_cv.pdf).
 
+My Erdös number is [3](http://users.umiacs.umd.edu/~jbg/static/faq.html).
