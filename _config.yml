@@ -8,7 +8,6 @@ description: > # this means to ignore newlines until "url:"
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 url:  # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
@@ -25,34 +24,34 @@ orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+#contact_note: >
+#  You can even add a little note about which of these is the best way to reach you.
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: al-folio
-blog_description: a simple whitespace theme for academics
-
-# Pagination
-paginate: 4
-permalink: /blog/:year/:title/
-paginate_path: /blog/page:num/
-
-text:
-  pagination:
-    newer: 'Newer'
-    older: 'Older'
-
-# Comments
-disqus_shortname: al-folio # put your disqus shortname
-
-# Optional features
-show_social_icons:  false
-enable_anchorjs:    false
-enable_katex:       true
+#blog_name: al-folio
+#blog_description: a simple whitespace theme for academics
+#
+## Pagination
+#paginate: 4
+#permalink: /blog/:year/:title/
+#paginate_path: /blog/page:num/
+#
+#text:
+#  pagination:
+#    newer: 'Newer'
+#    older: 'Older'
+#
+## Comments
+#disqus_shortname: al-folio # put your disqus shortname
+#
+## Optional features
+#show_social_icons:  false
+#enable_anchorjs:    false
+#enable_katex:       true
 
 # -----------------------------------------------------------------------------
 # Collections

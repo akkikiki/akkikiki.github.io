@@ -1,7 +1,7 @@
 ---
 layout: about
 permalink: /
-title: Yoshinari Fujinuma
+title: Yoshinari Fujinuma (藤沼祥成)
 redirect_from: 
   - /about
   - /about/
