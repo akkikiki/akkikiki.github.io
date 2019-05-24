@@ -2,7 +2,9 @@
 layout: about
 permalink: /
 title: <strong>Your</strong> Name
-redirect_from: /about
+redirect_from: 
+  - /about
+  - /about/
 description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
