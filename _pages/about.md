@@ -1,11 +1,10 @@
 ---
 layout: about
 permalink: /
-title: <strong>Your</strong> Name
+title: Yoshinari Fujinuma
 redirect_from: 
   - /about
   - /about/
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
