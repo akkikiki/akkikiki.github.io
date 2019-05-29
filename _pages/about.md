@@ -17,7 +17,8 @@ social: true
 
 I'm a third year computer science PhD student at University of Colorado, Boulder. 
 
-You can find me on [LinkedIn](https://jp.linkedin.com/in/yoshinari-fujinuma-4b612959), [Twitter](https://twitter.com/akkikiki), and [Github](https://github.com/akkikiki).
+I'm always looking for collaborators and people to discuss with so fill free to ping me on [LinkedIn](https://jp.linkedin.com/in/yoshinari-fujinuma-4b612959), [Twitter](https://twitter.com/akkikiki), [Github](https://github.com/akkikiki), or by [E-mails](mailto:fujinumay@gmail.com). 
+(E-mails are the best way to ping me.)
 
 My CV is [here]({{ site.url }}/assets/pdf/yoshinari_fujinuma_cv.pdf).
 
