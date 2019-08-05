@@ -64,8 +64,8 @@
   {% if entry.abstract %}
     [<a class="abstract">Abs</a>]
   {% endif %}
-  {% if entry.url %}
-    [<a href="{{ entry.url }}" target="_blank">pdf</a>]
+  {% if entry.pdfurl %}
+    [<a href="{{ entry.pdfurl }}" target="_blank">pdf</a>]
   {% endif %}
   {% if entry.talk %}
     [<a href="{{ entry.talk }}" target="_blank">talk</a>]
@@ -86,7 +86,7 @@
     [<a href="{{ entry.poster | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Poster</a>]
   {% endif %}
   {% if entry.slides %}
-    [<a href="{{ entry.slides | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Slides</a>]
+    [<a href="{{ entry.slides | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">slides</a>]
   {% endif %}
   {% if entry.code %}
     [<a href="{{ entry.code }}" target="_blank">code</a>]
