@@ -9,3 +9,5 @@ years: [2020,2019,2018,2017,2015]
   <h3 class="year">{{y}}</h3>
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
+
+*Equal contribution
