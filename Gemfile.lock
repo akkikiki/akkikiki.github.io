@@ -171,7 +171,7 @@ GEM
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-scholar (5.16.0)
-      bibtex-ruby (>= 5.1.0)
+      bibtex-ruby (~> 4.0, >= 4.0.13)
       citeproc-ruby (~> 1.0)
       csl-styles (~> 1.0)
       jekyll (~> 3.0)
@@ -245,7 +245,9 @@ GEM
     minitest (5.14.4)
     multipart-post (2.1.1)
     namae (1.1.1)
-    nokogiri (1.12.3-x86_64-darwin)
+    nokogiri (1.12.5-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.12.5-x86_64-linux)
       racc (~> 1.4)
     octokit (4.21.0)
       faraday (>= 0.9)
@@ -290,6 +292,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-19
+  x86_64-linux
 
 DEPENDENCIES
   bibtex-ruby
