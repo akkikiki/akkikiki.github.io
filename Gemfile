@@ -9,4 +9,5 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'unicode_utils'
     gem 'jekyll-redirect-from'
+    gem 'nokogiri', '>=1.13.6'
 end
