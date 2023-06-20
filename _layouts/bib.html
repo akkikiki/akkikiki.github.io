@@ -67,9 +67,6 @@
   {% if entry.pdfurl %}
     [<a href="{{ entry.pdfurl }}" target="_blank">pdf</a>]
   {% endif %}
-  {% if entry.talk %}
-    [<a href="{{ entry.talk }}" target="_blank">talk</a>]
-  {% endif %}
   {% if entry.arxiv %}
     [<a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>]
   {% endif %}
@@ -90,6 +87,12 @@
   {% endif %}
   {% if entry.code %}
     [<a href="{{ entry.code }}" target="_blank">code</a>]
+  {% endif %}
+  {% if entry.talk %}
+    [<a href="{{ entry.talk }}" target="_blank">talk</a>]
+  {% endif %}
+  {% if entry.talk_ja %}
+    [<a href="{{ entry.video }}" target="_blank">talk (Japanese)</a>]
   {% endif %}
   </span>
 
