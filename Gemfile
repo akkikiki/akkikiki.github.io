@@ -1,13 +1,11 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
-    gem 'github-pages'
-    gem 'jekyll'
-    gem 'jekyll-email-protect'
-    gem 'jekyll-paginate'
-    gem "bibtex-ruby"
-    gem 'jekyll-scholar'
-    gem 'jemoji'
+    gem 'github-pages', '>=228'
+    gem 'jekyll', '>=3.9.3'
+    gem 'jekyll-paginate', '>=1.1.0'
+    gem 'jekyll-scholar', '>=5.10.1'
+    gem 'jemoji', '>=0.12.0'
     gem 'unicode_utils'
-    gem 'jekyll-redirect-from'
-    gem 'nokogiri', '>=1.13.6'
+    gem 'jekyll-redirect-from', '>=0.16.0'
+    gem 'nokogiri', '>=1.14.1'
 end
