@@ -168,7 +168,10 @@
             <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
           {%- endif %}
           {%- if entry.talk %}
-            <a href="{{ entry.talk }}" class="btn btn-sm z-depth-0" role="button">Talk</a>
+            <a href="{{ entry.talk }}" class="btn btn-sm z-depth-0" role="button">Talk (English)</a>
+          {%- endif %}
+          {%- if entry.talk_ja %}
+            <a href="{{ entry.talk_ja }}" class="btn btn-sm z-depth-0" role="button">Talk (Japanese)</a>
           {%- endif %}
           {%- if entry.poster %}
             {% if entry.poster contains '://' -%}

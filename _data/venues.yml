@@ -17,6 +17,9 @@
   url: https://aaai.org/conference/aaai/
   color: "#00369f"
 
+"arXiv":
+  url: https://arxiv.org/
+
 "PLOS ONE":
   url: https://journals.plos.org/plosone/
 
