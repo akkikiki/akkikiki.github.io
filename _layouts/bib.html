@@ -15,6 +15,8 @@
           {%- endif -%}
         {%- endif -%}
         {%- if entry.preview -%}
+          <div class="row">
+          <div class="col-sm-2 prview">
           {% if entry.preview contains '://' -%}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
           {%- else -%}
@@ -24,6 +26,8 @@
             class="preview z-depth-1 rounded"
             alt=entry.preview -%}
           {%- endif -%}
+          </div>
+          </div>
         {%- endif -%}
         </div>
 
