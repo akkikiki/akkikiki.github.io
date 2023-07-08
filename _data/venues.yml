@@ -1,20 +1,30 @@
 "AJP":
   url: https://aapt.scitation.org/journal/ajp
-  color: v#00369f
+  color: "#00369f"
 
 "PhysRev":
   url: https://journals.aps.org/
 
 "ACL":
-  url: https://www.aclweb.org/portal/acl
-  color: v#00369f
+  url: https://aclanthology.org/venues/acl/
+  color: "#FF0000"
 
 "ACL Findings":
   url: https://www.aclweb.org/portal/acl
-  color: v#19009f
+  color: "#e74c3c"
 
 "AAAI":
-  url: https://www.aclweb.org/portal/acl
+  url: https://aaai.org/conference/aaai/
+  color: "#00369f"
 
 "PLOS ONE":
   url: https://journals.plos.org/plosone/
+
+"IJCNLP":
+  url: https://aclanthology.org/venues/ijcnlp/
+
+"Workshop":
+  url: 
+
+"PACLIC":
+  url: https://aclanthology.org/venues/paclic/
