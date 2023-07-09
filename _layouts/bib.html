@@ -2,8 +2,9 @@
 ---
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr">
+        <div class="col-sm-2">
         {%- if entry.abbr -%}
+          <div class="abbr">
           {%- if site.data.venues[entry.abbr] -%}
             {%- assign venue_style = nil -%}
             {%- if site.data.venues[entry.abbr].color != blank -%}
@@ -13,10 +14,10 @@
           {%- else -%}
             <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
+          </div>
         {%- endif -%}
         {%- if entry.preview -%}
-          <div class="row">
-          <div class="col-sm-2 prview">
+          <div class="preview">
           {% if entry.preview contains '://' -%}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
           {%- else -%}
@@ -26,7 +27,6 @@
             class="preview z-depth-1 rounded"
             alt=entry.preview -%}
           {%- endif -%}
-          </div>
           </div>
         {%- endif -%}
         </div>
