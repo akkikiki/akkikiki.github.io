@@ -10,8 +10,16 @@
   color: "#FF0000"
 
 "ACL Findings":
-  url: https://www.aclweb.org/portal/acl
+  url: https://aclanthology.org/venues/acl/
   color: "#e74c3c"
+
+"EMNLP":
+  url: https://aclanthology.org/venues/emnlp/
+  color: "#8CA7FA"
+
+"EMNLP Findings":
+  url: https://aclanthology.org/venues/emnlp/
+  color: "#8CBAFA"
 
 "AAAI":
   url: https://aaai.org/conference/aaai/
