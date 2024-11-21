@@ -8,6 +8,8 @@ nav_order: 1
 ---
 
 ---
+## Random Resources
+* [母子手帳の英訳テンプレート](https://github.com/akkikiki/green_card_resources/tree/main)
 
 ### Random Talks
 * [Probabilistic Graphical Models Chapter 4.1 - 4.4 (slides are in Japanese)](http://www.slideshare.net/yoshinarifujinuma/pgm-chapter4-firstpartforpublic2-64271462), July 2016
