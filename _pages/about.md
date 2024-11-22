@@ -25,3 +25,5 @@ Fill free to ping me on [Twitter](https://twitter.com/akkikiki), [Github](https:
 My CV is [here]({{ site.url }}/assets/pdf/yoshinari_fujinuma_cv.pdf).
 
 My Erdös number is [3](http://users.umiacs.umd.edu/~jbg/static/faq.html).
+
+If you want to have a casual chat with me, feel free to grab a spot at [this Calendly link](https://calendly.com/fujinumay/30min). (no recruiting call please without my consent!).
