@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /notes/
-title: notes
+title: Misc
 description: Miscellenous work.
 nav: true
 nav_order: 1
