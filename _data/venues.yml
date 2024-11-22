@@ -5,6 +5,9 @@
 "PhysRev":
   url: https://journals.aps.org/
 
+"NAACL":
+  url: https://aclanthology.org/venues/naacl/
+
 "ACL":
   url: https://aclanthology.org/venues/acl/
   color: "#FF0000"
