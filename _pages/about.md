@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 I'm currently an applied scientist at AWS AI Labs. 
 I earned a computer science PhD with focus on cross-lingual NLP  from University of Colorado Boulder.
 
-Fill free to ping me on [Twitter](https://twitter.com/akkikiki), [Github](https://github.com/akkikiki), or by [E-mail](mailto:fujinumay@gmail.com). 
+Fill free to ping me on [Bluesky](https://bsky.app/profile/akkikiki.bsky.social), [Twitter](https://twitter.com/akkikiki), [Github](https://github.com/akkikiki), or by [E-mail](mailto:fujinumay@gmail.com). 
 (E-mail is the best way to contact me.)
 
 My CV is [here]({{ site.url }}/assets/pdf/yoshinari_fujinuma_cv.pdf).
