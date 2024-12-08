@@ -29,4 +29,4 @@ If you want to have a casual chat with me, feel free to grab a spot at [this Cal
 
 Fun Facts:
 * My Erdös number is [3](http://users.umiacs.umd.edu/~jbg/static/faq.html).
-* My career high in Pokemon Go Battle League is ranked at 8th worldwide [leaderboard as of 2021/09/25](https://9db.jp/pokemongo/data/9255?season=9&date=2021-09-25).
+* My career high in Pokemon Go Battle League is ranked at 8th on the [worldwide leaderboard as of 2021/09/25](https://9db.jp/pokemongo/data/9255?season=9&date=2021-09-25).
