@@ -17,8 +17,8 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I'm currently a member of technical staff at Cantina Labs. 
-Prior to my current position, I was an senior applied scientist at AWS AI Labs. 
-I also earned a computer science PhD with focus on cross-lingual NLP  from University of Colorado Boulder.
+Prior to joining Cantina, I was a senior applied scientist at AWS AI Labs. 
+I also earned a computer science PhD with focus on cross-lingual NLP from University of Colorado Boulder.
 
 Fill free to ping me on [Bluesky](https://bsky.app/profile/akkikiki.bsky.social), [Twitter](https://twitter.com/akkikiki), [Github](https://github.com/akkikiki), or by [E-mail](mailto:fujinumay@gmail.com). 
 (E-mail is the best way to contact me.)
