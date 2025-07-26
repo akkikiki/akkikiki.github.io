@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Green Card
+title: グリーンカード
 date: 2025-07-25 15:09:00
 description: Green Card
 tags: life
