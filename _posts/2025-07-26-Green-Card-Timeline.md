@@ -78,7 +78,7 @@ toc:
     2. I-140（自分はGCに値する人物だから許可して）ステップ
         - 現在EB2 NIWとEB1A/BではPremium Processingが可能。そのためNIWなら45日、EB1A/Bなら15日以内に移民局にapproval/reject/RFE等の返答がくる。
         - EB2 NIWとEB1A/Bでは推薦状が必要。
-    3. I-485もしくはcounselor processing （自分はGCを取得できる人物だよ）ステップ
+    3. I-485もしくはcounselor processing （GCにステータス変更させて）ステップ
         - ここでは1) アメリカ国内にとどまりながらGCにステータスを変更する場合（I-485、ステータス変更）、と2)アメリカ国外にいてGCを取得する場合（Counselor processing）、の二パターンに分かれる。
             - 2)の場合は大使館面接があったりするのが特徴で、出入国制限が1)と異なる。自分は1)ルートなので2)の詳細は体験者に聞いてください。
         - このステップにおいてPriority date並びに[visa bulletin](https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html)が重要になってくる。中国、インド人の長い待ち行列が発生しているのはここのステップ。
