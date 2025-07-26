@@ -6,7 +6,7 @@ description: 体験記
 tags: life 日本語
 categories: Life
 featured: false
-og_image: "https://akkikiki.github.io/assets/img/green_card_received.jpg"
+og_image: https://akkikiki.github.io/assets/img/green_card_received.jpg
 toc:
   beginning: true
 ---
