@@ -157,7 +157,7 @@ toc:
 - EB1A/B、EB2-NIWで要求されるCitation数は分野毎に大きく異なるので他分野の方は移民弁護士に聞いてください。
 - 自分と同じタイミングでI-485やI-140を申請した人の進捗状況を知りたいなら[casestatusext.com](https://www.casestatusext.com/cases)がおすすめ。
 - I-639における母子手帳の英訳は病院等の正式な証明が必要か
-    - civil surgeonにもよるが（周りの話で却下された話は聞いたことないが）、自分の場合は自分で翻訳したのを受け付けてもらえた。自分の母子手帳は英訳がなかったため、[自作英訳Latexテンプレ](https://github.com/akkikiki/green_card_resources)を作りました。
+    - civil surgeonにもよるが（周りの話で却下された話は聞いたことないが）、自分の場合は自分で翻訳したのを受け付けてもらえた。自分の母子手帳は英訳がなかったため、[自作英訳Latexテンプレ](https://github.com/akkikiki/green_card_resources)を作成した。
 
 ## 個人的感想
 
