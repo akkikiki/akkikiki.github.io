@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 多言語Contrastive Decodingで日本語生成は改善するのか？
-date: 2026-03-06 12:00:00
+date: 2026-03-05 12:00:00
 description: 日本語プロンプトと英語プロンプトの確率差分を使ったContrastive Decodingの実験記録
 tags: NLP 日本語 実験
 categories: Research
