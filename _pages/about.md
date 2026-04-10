@@ -16,8 +16,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm currently a member of technical staff at Cantina Labs. 
-Prior to joining Cantina, I was a senior applied scientist at AWS AI Labs. 
+I'm currently a member of technical staff at Patronus AI. 
+Prior to joining Patronus AI, I was a member of technical staff at Cantina Labs and a senior applied scientist at AWS AI Labs. 
 I also earned a computer science PhD with focus on cross-lingual NLP from University of Colorado Boulder.
 
 Fill free to ping me on [Bluesky](https://bsky.app/profile/akkikiki.bsky.social), [Twitter](https://twitter.com/akkikiki), [Github](https://github.com/akkikiki), or by [E-mail](mailto:fujinumay@gmail.com). 
