@@ -175,6 +175,9 @@
           {%- if entry.data %}
             <a href="{{ entry.data }}" class="btn btn-sm z-depth-0" role="button">Data</a>
           {%- endif %}
+          {%- if entry.model %}
+            <a href="{{ entry.model }}" class="btn btn-sm z-depth-0" role="button">Models</a>
+          {%- endif %}
           {%- if entry.talk %}
             <a href="{{ entry.talk }}" class="btn btn-sm z-depth-0" role="button">Talk (English)</a>
           {%- endif %}
